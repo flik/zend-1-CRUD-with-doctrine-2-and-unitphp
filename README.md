@@ -32,6 +32,15 @@ Start your XWAMP or LAMP servers.
 
 //all test are in ./tests
 
+//Check test cases
+
+```bash
+./vendor/bin/phpunit --bootstrap ./vendor/autoload.php --testdox ./tests
+
+```
+
+
+
 Before run the app, run unit test command from root directory folder. 
 
 ```bash
