@@ -48,3 +48,21 @@ Before run the app, run unit test command from root directory folder.
 
 ```
 
+# Codeception Testing
+ 
+Run Normal Test
+
+```bash
+
+$ ./vendor/bin/codecept run --steps 
+
+```
+
+
+Run Detailed Test
+
+```bash
+
+$ ./vendor/bin/codecept run --steps -vvv
+
+```
