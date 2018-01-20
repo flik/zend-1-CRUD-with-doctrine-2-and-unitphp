@@ -17,7 +17,9 @@ http://rapidsol.blogspot.com/2015/03/download-composerphar.html
 
 # Setup Database
 
-Configure databse and import sql files which is in sql folder.
+Configure databse and import sql files which is in sql folder. 
+
+# Note: First import db2.sql and then db1.sql (because of cross database relation)
 
 
 
