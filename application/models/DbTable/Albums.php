@@ -20,6 +20,8 @@ class Application_Model_DbTable_Albums extends Zend_Db_Table_Abstract
         $data = array(
             'artist' => $artist,
             'title' => $title,
+            'user_id' => 1,
+            'customer_id' => 112,
         );
         $this->insert($data);
     }
