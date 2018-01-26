@@ -68,3 +68,10 @@ Run Detailed Test
 $ ./vendor/bin/codecept run --steps -vvv
 
 ```
+# Codeception switchs for run
+
+```bash
+run [-o|--override OVERRIDE] [-e|--ext EXT] [--report] [--html [HTML]] [--xml [X                                                                                        ML]] [--tap [TAP]] [--json [JSON]] [--colors] [--no-colors] [--silent] [--steps]                                                                                         [-d|--debug] [--coverage [COVERAGE]] [--coverage-html [COVERAGE-HTML]] [--cover                                                                                        age-xml [COVERAGE-XML]] [--coverage-text [COVERAGE-TEXT]] [--coverage-crap4j [CO                                                                                        VERAGE-CRAP4J]] [--no-exit] [-g|--group GROUP] [-s|--skip SKIP] [-x|--skip-group                                                                                         SKIP-GROUP] [--env ENV] [-f|--fail-fast] [--no-rebuild] [--] [<suite>] [<test>]
+```
+
+
