@@ -15,8 +15,7 @@ class IndexController extends Zend_Controller_Action
         
 		$em = $this->getInvokeArg('bootstrap')->getResource('doctrine')->getEntityManager('default');
 		$data = $em->find('Albums', 2);
-		 
-		//$data = $em->getRepository('WorkflowWfl');
+		  
 		//$datax = $data->findAll(); 
 			   
 		//$datax = getResultById('Albums', 2);
